@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
 end
 
 def get_contestant_name(data, occupation)
-  #name=""
+  name=""
   data.each do |key_season,v_contestant|
     #v_contestant[0].each do |contestant|
       name = v_contestant[0]#["occupation"]
