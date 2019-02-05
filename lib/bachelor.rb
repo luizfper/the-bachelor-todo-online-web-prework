@@ -9,7 +9,7 @@ def get_contestant_name(data, occupation)
     if v_contestant["occupation"]==occupation
       return v_contestant["name"]
       break
-    end 
+    end
   end
 end
 
