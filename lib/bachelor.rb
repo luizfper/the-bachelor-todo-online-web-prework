@@ -48,7 +48,7 @@ def get_average_age_for_season(data, season)
     counter+=1
     age_sum+=contestant["age"]
   end
-  
+
     # v_contestant.each do |contestant|
     #   if contestant["hometown"]==hometown
     #      occup=contestant["occupation"]
