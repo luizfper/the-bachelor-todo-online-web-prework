@@ -34,6 +34,7 @@ def get_occupation(data, hometown)
     v_contestant.each do |contestant|
       if contestant["hometown"]==hometown
          occup=contestant["occupation"]
+         break
        end
      end
   end
