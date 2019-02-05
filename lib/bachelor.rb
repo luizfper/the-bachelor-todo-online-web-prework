@@ -7,10 +7,11 @@ end
 def get_contestant_name(data, occupation)
   name=""
   data.each do |key_season,v_contestant|
-    #if v_contestant[0]["occupation"]==occupation
-      name = v_contestant[0]["occupation"]
-    #  break
-    #end
+    v_contestant[0].each do |contestant|
+      if contestant["occupation"]==occupation
+        name = contestant["name"]
+      end
+    end  
   end
   name
 end
