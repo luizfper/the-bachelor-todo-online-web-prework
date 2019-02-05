@@ -1,7 +1,7 @@
 def get_first_name_of_season_winner(data, season)
   season_hash={}
-  season_hash=data.find {|key_season,value|key_season==season}
-  season_hash[season]["name"]
+  season_hash=data.find {|key_season,value|key_season==season}.flatten
+
 end
 
 def get_contestant_name(data, occupation)
