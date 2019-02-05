@@ -43,13 +43,14 @@ end
 
 def get_average_age_for_season(data, season)
   average_age=0
+  counter=0
   data.find {|key_season,value|key_season==season}[1]
-    v_contestant.each do |contestant|
-      if contestant["hometown"]==hometown
-         occup=contestant["occupation"]
-         break
-       end
-     end
-  end
-  occupend
+    # v_contestant.each do |contestant|
+    #   if contestant["hometown"]==hometown
+    #      occup=contestant["occupation"]
+    #      break
+    #    end
+    #  end
+  #end
+  
 end
