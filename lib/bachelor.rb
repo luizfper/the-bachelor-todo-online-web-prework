@@ -11,7 +11,7 @@ def get_contestant_name(data, occupation)
       if contestant["occupation"]==occupation
         name = contestant["name"]
       end
-    end  
+    end
   end
   name
 end
