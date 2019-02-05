@@ -46,7 +46,7 @@ def get_average_age_for_season(data, season)
   counter=0
   data.find {|key_season,value|key_season==season}[1].each do |contestant|
     counter+=1
-    age_sum+=contestant["age"]
+    age_sum+=contestant["age"].to_i
   end
 
     # v_contestant.each do |contestant|
